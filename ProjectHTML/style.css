@@ -1,0 +1,451 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+/*----------Header-----------*/
+.header-container {
+    height: 100vh;
+    width: 100%;
+    background-image: url("https://github.com/Sl33px/Coffee-Layout/blob/main/img/header/coffe-background.png?raw=true");
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+
+.header-container nav {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.header-container nav a {
+    text-decoration: none;
+    color: #FFF;
+    font-family: "Open Sans", serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    margin-right: 40px;
+}
+
+.header-container nav a img {
+    width: 50px;
+    height: 50px;
+    flex-shrink: 0;
+    margin-right: -30px;
+}
+
+.header-container nav .active-link {
+    color: #FF4B32;
+    font-family: "Josefin Sans", serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+}
+
+.header-container div {
+    padding-top: 15vh;
+    padding-left: 7vw;
+}
+
+.header-container div .text1 {
+    color: #FFF;
+    font-family: "Josefin Sans", serif;
+    font-size: 58px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+    margin-bottom: 26px;
+}
+
+.header-container div .text2 {
+    color: #FFF;
+    font-family: "Open Sans", serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
+    opacity: 0.8;
+    margin-bottom: 48px;
+}
+
+.header-container div button {
+    border-color: transparent;
+    padding: 16px 35px;
+    border-radius: 5px;
+    background: #FF4B32;
+    width: 200px;
+
+    color: #FFF;
+    font-family: "Open Sans", serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
+}
+
+
+
+.offer-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+.textBest{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 4vw;
+    width: 80%;
+}
+.mainH1{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.mainH1>h1{
+    color: #000;
+    font-family: "Josefin Sans", serif;
+    font-size: 43px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+    letter-spacing: 6.45px;
+    padding: 8px;
+}
+.mainH1>p{
+    color: #000;
+    font-family: "Open Sans", serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    padding: 15px;
+    margin-bottom: 50px;
+}
+.columnFlex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.flexBoxBeans{
+    display: flex;
+    width: 85%;
+    height: 60vh;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 3vw;
+}
+.imgBeans{
+    background-size: cover;
+}
+.textGallery>div>h2{
+    color: #000;
+    font-family: "Josefin Sans", serif;
+    font-size: 37px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+    margin-bottom: 0;
+}
+.textGallery>div>p{
+    color: #000;
+    text-align: center;
+    font-family: "Open Sans", serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    opacity: 0.7;
+    margin-top: 15px;
+}
+.textGallery{
+    display: flex;
+    justify-content: center;
+}
+.textGallery>div{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    text-align: center;
+    flex-direction: column;
+}
+.price{
+    font-family: "Josefin Sans", serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+}
+.imgBeans1{
+    width: 20vw;
+}
+.img3beans{
+    width: 20vw;
+    margin-top: 8px;
+    margin-bottom: 10px;
+}
+.nameBeans{
+    font-family: "Josefin Sans", serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+    margin-top: 5px;
+}
+.descriptionBeans{
+    color: #000;
+    font-family: "Open Sans", serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    opacity: 0.6;
+    margin-top: 10px;
+}
+.brazil{
+    height: 60vh;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    margin: 18px;
+}
+.vietnam{
+    height: 60vh;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    margin: 18px;
+}
+.indonesian{
+    height: 60vh;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    margin: 18px;
+}
+
+.gallery-container{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+}
+.columnCup{
+    display: flex;
+    flex-direction: column;
+}
+.imgCup1{
+    width: 21vw;
+    margin: 8px;
+}
+.imgCup2{
+    width: 21vw;
+    height: 25vh;
+    margin:10px;
+}
+.coffeeCup{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.textLoad>span{
+    color: #FF4B32;
+    text-align: center;
+    font-family: "Open Sans", serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+.textLoad{
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 10vh;
+    width: 100%;
+}
+
+
+.contacts-container {
+    width: 100vw;
+    height: 63.5vh;
+    background-image: url("https://github.com/Sl33px/Coffee-Layout/blob/main/img/contacts/FollowUs1.png?raw=true");
+    background-size: cover;
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contacts-container-info {
+    height: 44vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 8vh;
+    margin-top: 11vh;
+}
+
+.contacts-container-info>span{
+    color: #FF4B32;
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 150%;
+}
+
+.contacts-container-info>h2{
+    width: 100%;
+    text-align: center;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 43px;
+    font-weight: 600;
+    line-height: 130%;
+    margin: 6vh 0;
+}
+
+#contacts-email, #contacts-phone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2vh;
+}
+
+#contacts-phone>span, #contacts-email>span {
+    font-family: "Open Sans", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 150%;
+    margin-left: 15px;
+}
+
+#contacts-email>img {
+    position: relative;
+    bottom: -0.4vh;
+}
+#contacts-phone>img {
+    position: relative;
+    bottom: -0.1vh;
+}
+
+.contacts-container-info>nav{
+    width: 320px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/*----------News-----------*/
+.news-container {
+    width: 100vw;
+    height: 100vh;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.news-container-info {
+    width: 80vw;
+    height: 71vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.news-container-info>h1 {
+    color: #000;
+    text-align: center;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 43px;
+    font-weight: 600;
+    line-height: 130%;
+}
+
+.news-container-info>p{
+    width: 42vw;
+    color: #000;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 160%;
+    margin: 2vh 0 5.8vh 0;
+
+}
+
+.news-container-cards{
+    height: 52vh;
+    width: 25vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.news-container-cards>section:nth-child(2){
+    margin: 0 30px;
+}
+
+.news-container-cards>section {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 40px 15px 136px 0 rgba(0, 0, 0, 0.20);
+}
+
+.news-container-cards>section>img {
+    height: 56%;
+}
+
+.news-container-cards>section>article{
+    height: 44%;
+    margin-left: 2vw ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+
+.news-container-cards>section>article>h2 {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 130%;
+}
+
+.news-container-cards>section>article>p {
+    width: 21vw;
+    font-family: "Open Sans",sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 160%;
+}
+
+.news-container-cards>section>article>a{
+    text-decoration: none;
+    color: #FF4B32;
+    font-family: "Open Sans",sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 160%;
+}
